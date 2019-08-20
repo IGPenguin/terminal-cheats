@@ -7,7 +7,7 @@
 ⭐️ **Hit star if you like it** and make me happy
 ## Basic syntax
 ### Command chaining
-`command1; command2; command3;` - execute command regardless of sucess of the previous<br>
+`command1; command2; command3;` - execute command regardless of sucess of the previous command<br>
 `command1 && command2` - execute command2 if command1 executed successfully<br>
 `command1 || command2` - execute command2 if command1 execution failed<br>
 `command1 &` - execute command in background
