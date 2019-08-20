@@ -1,7 +1,8 @@
 ## Basic syntax
 ### If variable comparsions
-Always use **spaces between brackets and the condition** `if [ "$var" -eq 1 ]`<br>
-Always **quote a tested variable** `if [ "$var" -eq 1 ]`<br>
+`if [ "$var" -eq 1 ]`<br>
+Always use **spaces between brackets and the condition** <br>
+Always **quote a tested variable**<br>
 
 ### Integer comparison
 **-eq** - equal to `if [ "$a" -eq "$b" ]`<br>
