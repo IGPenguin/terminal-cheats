@@ -9,7 +9,7 @@
 ### Multiple commands on single line
 `command1; command2; command3;`
 ### Command chaining
-`command1 && command2` - execute command2 if command1 executed successfully
+`command1 && command2` - execute command2 if command1 executed successfully<br>
 `command1 || command2` - execute command2 if command1 failed
 ### If variable comparsions
 `if [ "$var" -eq 1 ]`<br>
