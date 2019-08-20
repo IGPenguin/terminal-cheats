@@ -9,7 +9,7 @@
 **<, <=, >, >=**  - within double parentheses `(("$a" < "$b"))`<br>
 
 ### String comparison
-**Always quote a tested string** `if [ - "$string" ]`
+**Always quote a tested string** `if [ - "$string" ]`<br>
 <br>
 **-n** - string is not null `if [ -n "$string" ]`<br>
 **-z** - string is null, that is, has zero length `if [ -z "$string" ]`<br>
