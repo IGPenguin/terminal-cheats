@@ -62,7 +62,7 @@ The == comparison operator behaves differently within a double-brackets test tha
 ### Remove trailing carriage return
 `echo "<some-text-with-newline>" | tr -d '\r'`
 ### Colorized output
-[Output color code](https://unix.stackexchange.com/questions/269077/tput-setaf-color-table-how-to-determine-color-codes) Stackoverflow table<br>
+[Output color code](https://unix.stackexchange.com/questions/269077/tput-setaf-color-table-how-to-determine-color-codes)  table<br>
 `tput setaf 1; echo WARNING; tput sgr0;`
 ## Git
 `git reset --soft` - cancel commits, keep changes<br>
