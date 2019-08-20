@@ -1,10 +1,8 @@
-*I am not always an author of the following tips, I just gathered them into brief cheat sheet*
-
 ## Basic syntax
 ### Integer comparison
 **-eq** - equal to `if [ "$a" -eq "$b" ]`<br>
 **-ne** - not equal to `if [ "$a" -ne "$b" ]`<br>
-**-gt** - greater than if [ "$a" -gt "$b" ]<br>
+**-gt** - greater than if `[ "$a" -gt "$b" ]`<br>
 **-ge** - greater than or equal to if `[ "$a" -ge "$b" ]`<br>
 **-lt** - less than `if [ "$a" -lt "$b" ]`<br>
 **-le** - less than or equal to `if [ "$a" -le "$b" ]`<br>
@@ -57,3 +55,5 @@ Terminal output [color table](https://unix.stackexchange.com/questions/269077/tp
 ctrl+u - stash command<br>
 ctrl+y - pop stash<br>
 ctrl+l - clear<br>
+
+*I am not an author of all of these hints, I just wanted to keep a brief bash cheat sheet*
