@@ -10,6 +10,7 @@
 `command1; command2; command3;` - execute command regardless of sucess of the previous command<br>
 `command1 && command2` - execute command2 if command1 executed successfully<br>
 `command1 || command2` - execute command2 if command1 execution failed<br>
+*By the UNIX convention, the exit status of 0 denotes success, and anything else denotes a failure*<br>
 `command1 &` - execute command in background
 ### If variable comparsions
 `if [ "$var" -eq 1 ]`<br>
