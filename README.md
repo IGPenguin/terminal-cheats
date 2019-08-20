@@ -1,23 +1,23 @@
 ## Basic syntax
 ### Integer comparison
-**-eq** - equal to, if [ "$a" -eq "$b" ]<br>
-**-ne** - not equal to, if [ "$a" -ne "$b" ]<br>
-**-gt** - greater than, if [ "$a" -gt "$b" ]<br>
-**-ge** - greater than or equal to, if [ "$a" -ge "$b" ]<br>
-**-lt** - less than, if [ "$a" -lt "$b" ]<br>
-**-le** - less than or equal to, if [ "$a" -le "$b" ]<br>
-**<, <=, >, >=**  - within double parentheses(("$a" < "$b"))<br>
+**-eq** - equal to `if [ "$a" -eq "$b" ]`<br>
+**-ne** - not equal to `if [ "$a" -ne "$b" ]`<br>
+**-gt** - greater than if [ "$a" -gt "$b" ]<br>
+**-ge** - greater than or equal to if `[ "$a" -ge "$b" ]`<br>
+**-lt** - less than `if [ "$a" -lt "$b" ]`<br>
+**-le** - less than or equal to `if [ "$a" -le "$b" ]`<br>
+**<, <=, >, >=**  - within double parentheses `(("$a" < "$b"))`<br>
 
 ### String comparison
 **Always quote "$STRING"** a tested string
-**-z** - string is null, that is, has zero length, if [ -z "$String" ]<br>
-**-n** - string is not null<br>
+**-z** - string is null, that is, has zero length `if [ -z "$string" ]`<br>
+**-n** - string is not null `if [ -n "$string" ]`<br>
 **= or ==** - equal to, `if [ "$a" = "$b" ]`<br>
+**!=** - not equal to, if [ "$a" != "$b" ]<br>
 The == comparison operator behaves differently within a double-brackets test than within single brackets<br>
-[[ $a == z* ]]   - true if $a starts with an "z" (pattern matching)<br>
-[[ $a == "z*" ]] or [ "$a" == "z*" ] - true if $a is equal to z* (literal matching)<br>
-[ $a == z* ]     - file globbing and word splitting take place<br>
-!= is not equal to, if [ "$a" != "$b" ]<br>
+`[[ $a == z* ]]`   - true if $a starts with an "z" (pattern matching)<br>
+`[[ $a == "z*" ]]` or `[ "$a" == "z*" ]` - true if $a is equal to z* (literal matching)<br>
+`[ $a == z* ]` - file globbing and word splitting take place<br>
 < - less than, in ASCII alphabetical order, if [[ "$a" < "$b" ]], if [ "$a" \< "$b" ]<br>
 \> - greater than, in ASCII alphabetical order, if [[ "$a" > "$b" ]], if [ "$a" \> "$b" ]<br>
 
