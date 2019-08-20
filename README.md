@@ -9,10 +9,10 @@
 **<, <=, >, >=**  - within double parentheses `(("$a" < "$b"))`<br>
 
 ### String comparison
-**Always quote "$STRING"** a tested string
-**-z** - string is null, that is, has zero length `if [ -z "$string" ]`<br>
+**Always quote a tested string** `if [ - "$string" ]`
 <br>
 **-n** - string is not null `if [ -n "$string" ]`<br>
+**-z** - string is null, that is, has zero length `if [ -z "$string" ]`<br>
 **= or ==** - equal to, `if [ "$a" = "$b" ]`<br>
 **!=** - not equal to, if [ "$a" != "$b" ]<br>
 The == comparison operator behaves differently within a double-brackets test than within single brackets<br>
