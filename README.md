@@ -1,25 +1,5 @@
-Bash Knowledge
-
-Remove suff/pre-fix
-foo=${string#"$prefix"}
-foo=${foo%"$suffix"}
-
-file videothumb.jpg - info o obrazku atd
-
-https://unix.stackexchange.com/questions/269077/tput-setaf-color-table-how-to-determine-color-codes
-tput setaf 1;echo WARNING;tput sgr0 - colorized output
-
-
-tr -d '\r' - remove trailing carriage return
-
-column - sloupce
-<cmd> | at - at some time
-
-ctrl+u - stash command
-ctrl+y - pop stash
-ctrl+l - clear
-
-integer comparison
+## Basic syntax
+### Integer comparison
 -eq is equal to, if [ "$a" -eq "$b" ]
 -ne is not equal to, if [ "$a" -ne "$b" ]
 -gt is greater than, if [ "$a" -gt "$b" ]
@@ -28,7 +8,8 @@ integer comparison
 -le is less than or equal to, if [ "$a" -le "$b" ]
 <, <=, >, >= within double parentheses(("$a" < "$b"))
 
-string comparison
+### String comparison
+*Always quote "$STRING" a tested string*
 = or == is equal to, if [ "$a" = "$b" ]
 The == comparison operator behaves differently within a double-brackets test than within single brackets.
 [[ $a == z* ]]   # True if $a starts with an "z" (pattern matching).
@@ -40,10 +21,26 @@ The == comparison operator behaves differently within a double-brackets test tha
 > is greater than, in ASCII alphabetical order, if [[ "$a" > "$b" ]], if [ "$a" \> "$b" ]
 -z string is null, that is, has zero length, if [ -z "$String" ]
 -n string is not null.
-
-Caution
-Always quote "$STRING" a tested string.
-
-is_root(){
-   [ $(id -u) -eq 0 ] && return $TRUE || return $FALSE
-}
+## Useful commands
+### file
+`file videothumb.jpg` - file information including image resolution etc.
+## Oneliners
+### Command success if
+`[ $(id -u) -eq 0 ] && return $TRUE || return $FALSE`
+### Remove suff/pre-fix
+`foo=${string#"$prefix"}`
+`foo=${foo%"$suffix"}`
+### Remove trailing carriage return
+`echo "<some-text-with-newline>" | tr -d '\r'`
+## Formatting output
+### Colorized output
+[Terminal output color table](https://unix.stackexchange.com/questions/269077/tput-setaf-color-table-how-to-determine-color-codes)
+`tput setaf 1;
+echo WARNING #red text
+tput sgr0`
+### Columns
+<cmd> | at - at some time
+## Terminal shortcuts
+ctrl+u - stash command
+ctrl+y - pop stash
+ctrl+l - clear
