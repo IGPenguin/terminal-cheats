@@ -50,7 +50,7 @@ Terminal output [color table](https://unix.stackexchange.com/questions/269077/tp
 `grep <text>*` - find line with <text> and any more characters immediately after it<br>
 
 ### file
-`file videothumb.jpg` - file information including image resolution etc
+`file image_file.jpg` - file information including image resolution etc
 ## Terminal shortcuts
 ctrl+u - stash command<br>
 ctrl+y - pop stash<br>
