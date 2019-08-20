@@ -1,6 +1,7 @@
 ## Basic syntax
 ### If variable comparsions
-**Always quote a tested variable** `if [ - "$string" ]`<br>
+Always use **spaces between brackets and the condition** `if [ "$var" -eq 1 ]`<br>
+Always **quote a tested variable** `if [ "$var" -eq 1 ]`<br>
 
 ### Integer comparison
 **-eq** - equal to `if [ "$a" -eq "$b" ]`<br>
@@ -12,7 +13,6 @@
 **<, <=, >, >=**  - within double parentheses `(("$a" < "$b"))`<br>
 
 ### String comparison
-<br>
 **-n** - string is not null `if [ -n "$string" ]`<br>
 **-z** - string is null, that is, has zero length `if [ -z "$string" ]`<br>
 **= or ==** - equal to, `if [ "$a" = "$b" ]`<br>
