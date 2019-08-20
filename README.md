@@ -6,11 +6,11 @@
 😍 Feel free to **contribute via pull request**<br>
 ⭐️ **Hit star if you like it** and make me happy
 ## Basic syntax
-### Multiple commands on single line
-`command1; command2; command3;`
 ### Command chaining
+`command1; command2; command3;` - execute command regardless of sucess of the previous
 `command1 && command2` - execute command2 if command1 executed successfully<br>
 `command1 || command2` - execute command2 if command1 execution failed
+`command1 &` - execute command in background
 ### If variable comparsions
 `if [ "$var" -eq 1 ]`<br>
 Always use **spaces between brackets and the condition** <br>
