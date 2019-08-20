@@ -61,6 +61,6 @@ ctrl+l - clear<br>
 
 ## Licence
 🙈 I may not be an author of some of the hints, I just want to keep a brief bash cheat sheet<br>
-⚠ Use at your own risk<br>
+⚠️ Use at your own risk<br>
 😍 Feel free to **contribute via pull request**<br>
 
