@@ -11,6 +11,7 @@
 ### String comparison
 **Always quote "$STRING"** a tested string
 **-z** - string is null, that is, has zero length `if [ -z "$string" ]`<br>
+<br>
 **-n** - string is not null `if [ -n "$string" ]`<br>
 **= or ==** - equal to, `if [ "$a" = "$b" ]`<br>
 **!=** - not equal to, if [ "$a" != "$b" ]<br>
