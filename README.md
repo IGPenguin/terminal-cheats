@@ -1,3 +1,5 @@
+`*I am not always an author of the following tips, I just gathered them into brief cheat sheet*
+
 ## Basic syntax
 ### Integer comparison
 **-eq** - equal to `if [ "$a" -eq "$b" ]`<br>
