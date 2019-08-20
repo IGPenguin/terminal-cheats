@@ -1,4 +1,4 @@
-`*I am not always an author of the following tips, I just gathered them into brief cheat sheet*
+*I am not always an author of the following tips, I just gathered them into brief cheat sheet*
 
 ## Basic syntax
 ### Integer comparison
