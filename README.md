@@ -10,7 +10,7 @@
 `command1; command2; command3;`
 ### Command chaining
 `command1 && command2` - execute command2 if command1 executed successfully<br>
-`command1 || command2` - execute command2 if command1 failed
+`command1 || command2` - execute command2 if command1 execution failed
 ### If variable comparsions
 `if [ "$var" -eq 1 ]`<br>
 Always use **spaces between brackets and the condition** <br>
