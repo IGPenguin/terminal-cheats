@@ -21,9 +21,6 @@ The == comparison operator behaves differently within a double-brackets test tha
 > is greater than, in ASCII alphabetical order, if [[ "$a" > "$b" ]], if [ "$a" \> "$b" ]<br>
 -z string is null, that is, has zero length, if [ -z "$String" ]<br>
 -n string is not null<br>
-## Useful commands
-### file
-`file videothumb.jpg` - file information including image resolution etc
 ## Oneliners
 ### Command success if
 `[ $(id -u) -eq 0 ] && return $TRUE || return $FALSE`
@@ -42,6 +39,18 @@ Terminal output [color table](https://unix.stackexchange.com/questions/269077/tp
 `tput setaf 1;
 echo WARNING #red text
 tput sgr0`
+## Useful commands
+### grep
+`grep <text>` - find lines containing <text><br>
+`grep ^<text>` - find <text> at the start of a line<br>
+`grep <text>$` - find <text> at the end of a line<br>
+`grep <text>.` - find line with <text> and exactly one character immediately after it<br>
+`grep <text>.?` - find line with <text> and one optional character immediately after it<br>
+`grep <text>Z+` - find line with <text> and one or more Z characters immediately after it<br>
+`grep <text>*` - find line with <text> and any more characters immediately after it<br>
+
+### file
+`file videothumb.jpg` - file information including image resolution etc
 ## Terminal shortcuts
 ctrl+u - stash command<br>
 ctrl+y - pop stash<br>
