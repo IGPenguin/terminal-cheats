@@ -18,7 +18,7 @@ The == comparison operator behaves differently within a double-brackets test tha
 [ "$a" == "z*" ] # True if $a is equal to z* (literal matching)<br>
 != is not equal to, if [ "$a" != "$b" ]<br>
 < is less than, in ASCII alphabetical order, if [[ "$a" < "$b" ]], if [ "$a" \< "$b" ]<br>
-> is greater than, in ASCII alphabetical order, if [[ "$a" > "$b" ]], if [ "$a" \> "$b" ]<br>
+\> is greater than, in ASCII alphabetical order, if [[ "$a" > "$b" ]], if [ "$a" \> "$b" ]<br>
 -z string is null, that is, has zero length, if [ -z "$String" ]<br>
 -n string is not null<br>
 ## Oneliners
