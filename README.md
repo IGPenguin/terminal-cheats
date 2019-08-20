@@ -37,6 +37,8 @@ The == comparison operator behaves differently within a double-brackets test tha
 < - less than, in ASCII alphabetical order, if [[ "$a" < "$b" ]], if [ "$a" \< "$b" ]<br>
 \> - greater than, in ASCII alphabetical order, if [[ "$a" > "$b" ]], if [ "$a" \> "$b" ]<br>
 ## Useful commands
+### man
+`man <command>` - show command manual, exit with q
 ### grep
 `grep <text>` - find lines containing <text><br>
 `grep ^<text>` - find <text> at the start of a line<br>
