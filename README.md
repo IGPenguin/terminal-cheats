@@ -64,6 +64,11 @@ The == comparison operator behaves differently within a double-brackets test tha
 ### Colorized output
 [Output color code](https://unix.stackexchange.com/questions/269077/tput-setaf-color-table-how-to-determine-color-codes) Stackoverflow table<br>
 `tput setaf 1; echo WARNING; tput sgr0;`
+## Git
+`git reset --soft` - cancel commits, keep changes<br>
+`git branch -m new-name` - rename local branch<br>
+`git commit --amend` - add to previous commit<br>
+`git remote prune origin` - remove merged branches<br>
 ## Terminal shortcuts
 ctrl+u - stash command<br>
 ctrl+y - pop stash<br>
