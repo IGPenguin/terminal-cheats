@@ -6,6 +6,11 @@
 😍 Feel free to **contribute via pull request**<br>
 ⭐️ **Hit star if you like it** and make me happy
 ## Basic syntax
+### Multiple commands on single line
+`command1; command2; command3;`
+### Command chaining
+`command1 && command2` - execute command2 if command1 executed successfully
+`command1 || command2` - execute command2 if command1 failed
 ### If variable comparsions
 `if [ "$var" -eq 1 ]`<br>
 Always use **spaces between brackets and the condition** <br>
@@ -31,7 +36,17 @@ The == comparison operator behaves differently within a double-brackets test tha
 `[ $a == z* ]` - file globbing and word splitting take place<br>
 < - less than, in ASCII alphabetical order, if [[ "$a" < "$b" ]], if [ "$a" \< "$b" ]<br>
 \> - greater than, in ASCII alphabetical order, if [[ "$a" > "$b" ]], if [ "$a" \> "$b" ]<br>
-
+## Useful commands
+### grep
+`grep <text>` - find lines containing <text><br>
+`grep ^<text>` - find <text> at the start of a line<br>
+`grep <text>$` - find <text> at the end of a line<br>
+`grep <text>.` - find line with <text> and exactly one character immediately after it<br>
+`grep <text>.?` - find line with <text> and one optional character immediately after it<br>
+`grep <text>Z+` - find line with <text> and one or more Z characters immediately after it<br>
+`grep <text>*` - find line with <text> and any more characters immediately after it<br>
+### file
+`file image_file.jpg` - file information including image resolution etc
 ## Oneliners
 ### Command result if
 `[ $(id -u) -eq 0 ] && return $TRUE || return $FALSE`
@@ -49,18 +64,6 @@ Terminal output [color table](https://unix.stackexchange.com/questions/269077/tp
 `tput setaf 1;`<br>
 `echo WARNING #red text`<br>
 `tput sgr0`
-## Useful commands
-### grep
-`grep <text>` - find lines containing <text><br>
-`grep ^<text>` - find <text> at the start of a line<br>
-`grep <text>$` - find <text> at the end of a line<br>
-`grep <text>.` - find line with <text> and exactly one character immediately after it<br>
-`grep <text>.?` - find line with <text> and one optional character immediately after it<br>
-`grep <text>Z+` - find line with <text> and one or more Z characters immediately after it<br>
-`grep <text>*` - find line with <text> and any more characters immediately after it<br>
-
-### file
-`file image_file.jpg` - file information including image resolution etc
 ## Terminal shortcuts
 ctrl+u - stash command<br>
 ctrl+y - pop stash<br>
