@@ -1,4 +1,7 @@
 ## Basic syntax
+### If variable comparsions
+**Always quote a tested variable** `if [ - "$string" ]`<br>
+
 ### Integer comparison
 **-eq** - equal to `if [ "$a" -eq "$b" ]`<br>
 **-ne** - not equal to `if [ "$a" -ne "$b" ]`<br>
@@ -9,7 +12,6 @@
 **<, <=, >, >=**  - within double parentheses `(("$a" < "$b"))`<br>
 
 ### String comparison
-**Always quote a tested string** `if [ - "$string" ]`<br>
 <br>
 **-n** - string is not null `if [ -n "$string" ]`<br>
 **-z** - string is null, that is, has zero length `if [ -z "$string" ]`<br>
