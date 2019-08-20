@@ -4,7 +4,7 @@
 🙈 I may not be an author of some of the tips<br>
 ⚠️ Use at your own risk<br>
 😍 Feel free to **contribute via pull request**<br>
-⭐️ **Hit star if you like it**
+⭐️ **Hit star if you like it** and make me happy
 ## Basic syntax
 ### If variable comparsions
 `if [ "$var" -eq 1 ]`<br>
