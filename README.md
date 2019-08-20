@@ -56,4 +56,8 @@ ctrl+u - stash command<br>
 ctrl+y - pop stash<br>
 ctrl+l - clear<br>
 
-*I am not an author of all of these hints, I just wanted to keep a brief bash cheat sheet*
+## Licence
+🙈 I may not be an author of some of the hints, I just want to keep a brief bash cheat sheet
+⚠️ Use at your own risk<br>
+😍 Feel free to **contribute via pull request**<br>
+
