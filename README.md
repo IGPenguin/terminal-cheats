@@ -26,7 +26,7 @@ The == comparison operator behaves differently within a double-brackets test tha
 \> - greater than, in ASCII alphabetical order, if [[ "$a" > "$b" ]], if [ "$a" \> "$b" ]<br>
 
 ## Oneliners
-### Command success if
+### Command result if
 `[ $(id -u) -eq 0 ] && return $TRUE || return $FALSE`
 ### Remove suff/pre-fix
 `foo=${string#"$prefix"}`<br>
