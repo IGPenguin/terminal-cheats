@@ -1,3 +1,9 @@
+
+## What is it
+📃 Bash syntax and command cheat sheet
+🙈 I may not be an author of some of the tips<br>
+⚠️ Use at your own risk<br>
+😍 Feel free to **contribute via pull request**<br>
 ## Basic syntax
 ### If variable comparsions
 `if [ "$var" -eq 1 ]`<br>
@@ -58,9 +64,3 @@ Terminal output [color table](https://unix.stackexchange.com/questions/269077/tp
 ctrl+u - stash command<br>
 ctrl+y - pop stash<br>
 ctrl+l - clear<br>
-
-## Licence
-🙈 I may not be an author of some of the hints, I just want to keep a brief bash cheat sheet<br>
-⚠️ Use at your own risk<br>
-😍 Feel free to **contribute via pull request**<br>
-
