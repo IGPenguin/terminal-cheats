@@ -32,14 +32,13 @@ The == comparison operator behaves differently within a double-brackets test tha
 `echo <tbd> | column` 
 ### Schedule command
 `<cmd> | at <time>` - run command at scheduled time
-## Formatting output
 ### Remove trailing carriage return
 `echo "<some-text-with-newline>" | tr -d '\r'`
 ### Colorized output
 Terminal output [color table](https://unix.stackexchange.com/questions/269077/tput-setaf-color-table-how-to-determine-color-codes)<br>
-`tput setaf 1;
-echo WARNING #red text
-tput sgr0`
+`tput setaf 1;`<br>
+`echo WARNING #red text`<br>
+`tput sgr0`
 ## Useful commands
 ### grep
 `grep <text>` - find lines containing <text><br>
