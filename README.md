@@ -68,6 +68,7 @@ The == comparison operator behaves differently within a double-brackets test tha
 ## Git
 `git reset --soft` - cancel commits, keep changes<br>
 `git branch -m new-name` - rename local branch<br>
+`git branch -d <branch_name> - delete local branch`<br>
 `git commit --amend` - add to previous commit<br>
 `git remote prune origin` - remove merged branches<br>
 ## Terminal shortcuts
