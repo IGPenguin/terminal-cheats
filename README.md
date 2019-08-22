@@ -24,7 +24,7 @@ Always **quote a tested variable**<br>
 **-ge** - greater than or equal to if `[ "$a" -ge "$b" ]`<br>
 **-lt** - less than `if [ "$a" -lt "$b" ]`<br>
 **-le** - less than or equal to `if [ "$a" -le "$b" ]`<br>
-**<, <=, >, >=**  - within double parentheses `(("$a" < "$b"))`<br>
+**\<, \<=, >, >=**  - within double parentheses `(("$a" < "$b"))`<br>
 
 ### String comparison
 **-n** - string is not null `if [ -n "$string" ]`<br>
@@ -35,19 +35,19 @@ The == comparison operator behaves differently within a double-brackets test tha
 `[[ $a == z* ]]`   - true if $a starts with an "z" (pattern matching)<br>
 `[[ $a == "z*" ]]` or `[ "$a" == "z*" ]` - true if $a is equal to z* (literal matching)<br>
 `[ $a == z* ]` - file globbing and word splitting take place<br>
-< - less than, in ASCII alphabetical order, if [[ "$a" < "$b" ]], if [ "$a" \< "$b" ]<br>
+\< - less than, in ASCII alphabetical order, if [[ "$a" < "$b" ]], if [ "$a" \< "$b" ]<br>
 \> - greater than, in ASCII alphabetical order, if [[ "$a" > "$b" ]], if [ "$a" \> "$b" ]<br>
 ## Useful commands
 ### man
 `man <command>` - show command manual, exit with q
 ### grep
-`grep <text>` - find lines containing <text><br>
-`grep ^<text>` - find <text> at the start of a line<br>
-`grep <text>$` - find <text> at the end of a line<br>
-`grep <text>.` - find line with <text> and exactly one character immediately after it<br>
-`grep <text>.?` - find line with <text> and one optional character immediately after it<br>
-`grep <text>Z+` - find line with <text> and one or more Z characters immediately after it<br>
-`grep <text>*` - find line with <text> and any more characters immediately after it<br>
+`grep <text>` - find lines containing \<text><br>
+`grep ^<text>` - find \<text> at the start of a line<br>
+`grep <text>$` - find \<text> at the end of a line<br>
+`grep <text>.` - find line with \<text> and exactly one character immediately after it<br>
+`grep <text>.?` - find line with \<text> and one optional character immediately after it<br>
+`grep <text>Z+` - find line with \<text> and one or more Z characters immediately after it<br>
+`grep <text>*` - with \<text> and any more characters immediately after it<br>
 ### file
 `file image_file.jpg` - file information including image resolution etc
 ## Oneliners
