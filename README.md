@@ -40,6 +40,8 @@ The == comparison operator behaves differently within a double-brackets test tha
 ## Useful commands
 ### man
 `man <command>` - show command manual, exit with q
+### curl
+`curl -o <filename> -k <url>` - download file from url
 ### grep
 `grep <text>` - find lines containing \<text><br>
 `grep ^<text>` - find \<text> at the start of a line<br>
