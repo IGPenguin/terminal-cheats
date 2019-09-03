@@ -67,7 +67,7 @@ The == comparison operator behaves differently within a double-brackets test tha
 ### Remove trailing carriage return
 `echo "<some-text-with-newline>" | tr -d '\r'`
 ### Colorized output
-`tput setaf 1; echo WARNING; tput sgr0;`
+`tput setaf 1; echo WARNING; tput sgr0;`<br>
 [Output color codes](https://unix.stackexchange.com/questions/269077/tput-setaf-color-table-how-to-determine-color-codes)<br>
 ## Code snippets
 [Argument handling](https://github.com/IntergalacticPenguin/mobile-toolkit/blob/master/android/aoptions)
