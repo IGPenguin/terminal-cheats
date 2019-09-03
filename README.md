@@ -55,6 +55,8 @@ The == comparison operator behaves differently within a double-brackets test tha
 ## Oneliners
 ### Command result if
 `[ $(id -u) -eq 0 ] && return $TRUE || return $FALSE`
+### Var is number
+`[ "$VAR" =~ ^[0-9]+$ ]`
 ### Remove suff/pre-fix
 `foo=${string#"$prefix"}`<br>
 `foo=${foo%"$suffix"}`<br>
