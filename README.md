@@ -77,6 +77,7 @@ The == comparison operator behaves differently within a double-brackets test tha
 `git branch -d <branch_name> - delete local branch`<br>
 `git commit --amend` - add to previous commit<br>
 `git remote prune origin` - remove merged branches<br>
+[Conflict resolving manual](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line)<br>
 ## Terminal shortcuts
 ctrl+u - stash command<br>
 ctrl+y - pop stash<br>
