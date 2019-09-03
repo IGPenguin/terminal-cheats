@@ -12,12 +12,12 @@
 `command1 || command2` - execute command2 if command1 execution failed<br>
 *By the UNIX convention, the exit status of 0 denotes success, and anything else denotes a failure*<br>
 `command1 &` - execute command in background
-### If variable comparsions
+### Variable comparsion
 `if [ "$var" -eq 1 ]`<br>
 Always use **spaces between brackets and the condition** <br>
 Always **quote a tested variable**<br>
 
-### Integer comparison
+#### Integer comparison operators
 **-eq** - equal to `if [ "$a" -eq "$b" ]`<br>
 **-ne** - not equal to `if [ "$a" -ne "$b" ]`<br>
 **-gt** - greater than if `[ "$a" -gt "$b" ]`<br>
@@ -26,7 +26,7 @@ Always **quote a tested variable**<br>
 **-le** - less than or equal to `if [ "$a" -le "$b" ]`<br>
 **\<, \<=, >, >=**  - within double parentheses `(("$a" < "$b"))`<br>
 
-### String comparison
+#### String comparison operators
 **-n** - string is not null `if [ -n "$string" ]`<br>
 **-z** - string is null, that is, has zero length `if [ -z "$string" ]`<br>
 **= or ==** - equal to, `if [ "$a" = "$b" ]`<br>
