@@ -50,6 +50,8 @@ The == comparison operator behaves differently within a double-brackets test tha
 `grep <text>.?` - find line with \<text> and one optional character immediately after it<br>
 `grep <text>Z+` - find line with \<text> and one or more Z characters immediately after it<br>
 `grep <text>*` - find line with \<text> and any number of characters immediately after it<br>
+### sort
+`sort -u` - strip duplicate lines
 ### file
 `file image_file.jpg` - file information including image resolution etc
 ## Oneliners
