@@ -54,6 +54,8 @@ The == comparison operator behaves differently within a double-brackets test tha
 `sort -u` - strip duplicate lines
 ### tr
 `echo "some.string.with.dots" | tr . _` - replace dots with underscores
+### awk
+`cat <some-file> | awk '{print $2}'` - get second word from each line
 ### file
 `file image_file.jpg` - file information including image resolution etc
 ## Oneliners
