@@ -52,6 +52,8 @@ The == comparison operator behaves differently within a double-brackets test tha
 `grep <text>*` - find line with \<text> and any number of characters immediately after it<br>
 ### sort
 `sort -u` - strip duplicate lines
+### tr
+`echo "some.string.with.dots" | tr . _` - replace dots with underscores
 ### file
 `file image_file.jpg` - file information including image resolution etc
 ## Oneliners
