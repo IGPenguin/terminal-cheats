@@ -59,6 +59,8 @@ The == comparison operator behaves differently within a double-brackets test tha
 ### file
 `file image_file.jpg` - file information including image resolution etc
 ## Oneliners
+### Run remote script
+`curl -L https://raw.githubusercontent.com/dummyuser/great-repo/master/install.sh | bash`
 ### Command result if
 `[ $(id -u) -eq 0 ] && return $TRUE || return $FALSE`
 ### Var is number
