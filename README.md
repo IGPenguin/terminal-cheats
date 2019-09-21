@@ -11,7 +11,8 @@
 `command1 && command2` - execute command2 if command1 executed successfully<br>
 `command1 || command2` - execute command2 if command1 execution failed<br>
 *By the UNIX convention, the exit status of 0 denotes success, and anything else denotes a failure*<br>
-`command1 &` - execute command in background
+`command1 &` - execute command in background<br>
+`wait` - wait untill all background tasks are done
 ### Variable comparsion
 `if [ "$var" -eq 1 ]`<br>
 Always use **spaces between brackets and the condition** <br>
