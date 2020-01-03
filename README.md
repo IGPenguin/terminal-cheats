@@ -1,5 +1,5 @@
 
-## What is it
+## What is it?
 📃 **Terminal, bash syntax and command cheat sheet**<br>
 🙈 I may not be an author of some of the tips<br>
 ⚠️ Use at your own risk<br>
