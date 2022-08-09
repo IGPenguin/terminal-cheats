@@ -1,18 +1,19 @@
 
 ## What is it?
-📃 **Terminal, bash syntax and command cheat sheet**<br>
-🙈 I may not be an author of some of the tips<br>
+📃 **Terminal & bash cheat sheet**<br>
+🙈 Sourced by Google search<br>
 ⚠️ Use at your own risk<br>
-😍 Feel free to **contribute via pull request**<br>
-⭐️ **Hit star if you like it** and make me happy
-## Basic syntax
+😍 **Contribute via [pull request](https://github.com/IGPenguin/terminal-cheat-sheet/pulls)**<br>
+⭐️ Hit the star button, make me happy
+
+## Basic bash syntax
 ### Command chaining
-`command1; command2; command3;` - execute command regardless of sucess of the previous command<br>
-`command1 && command2` - execute command2 if command1 executed successfully<br>
-`command1 || command2` - execute command2 if command1 execution failed<br>
-*By the UNIX convention, the exit status of 0 denotes success, and anything else denotes a failure*<br>
-`command1 &` - execute command in background<br>
-`wait` - wait untill all background tasks are done
+`command1; command2; command3;` - execute command regardless of success of the previous command<br>
+`command1 && command2` - execute command2 if command1 executed successfully (exit code 0)<br>
+`command1 || command2` - execute command2 if command1 execution failed (exit code != 0)<br>
+`command1 &` - execute command as a background task<br>
+`wait` - wait until triggered background tasks are done
+
 ### Variable comparsion
 `if [ "$var" -eq 1 ]`<br>
 Always use **spaces between brackets and the condition** <br>
@@ -38,7 +39,8 @@ The == comparison operator behaves differently within a double-brackets test tha
 `[ $a == z* ]` - file globbing and word splitting take place<br>
 \< - less than, in ASCII alphabetical order, if [[ "$a" < "$b" ]], if [ "$a" \< "$b" ]<br>
 \> - greater than, in ASCII alphabetical order, if [[ "$a" > "$b" ]], if [ "$a" \> "$b" ]<br>
-## Useful commands
+
+## Useful terminal commands
 ### man
 `man <command>` - show command manual, exit with q
 ### curl
@@ -59,6 +61,7 @@ The == comparison operator behaves differently within a double-brackets test tha
 `cat <some-file> | awk '{print $2}'` - get second word from each line
 ### file
 `file image_file.jpg` - file information including image resolution etc
+
 ## Oneliners
 ### Run remote script
 `curl -L https://raw.githubusercontent.com/dummyuser/great-repo/master/install.sh | bash`
@@ -78,15 +81,18 @@ The == comparison operator behaves differently within a double-brackets test tha
 ### Colorized output
 `tput setaf 1; echo WARNING; tput sgr0;`<br>
 [Output color codes](https://unix.stackexchange.com/questions/269077/tput-setaf-color-table-how-to-determine-color-codes)<br>
+
 ## Code snippets
 [Argument handling](https://github.com/IntergalacticPenguin/mobile-toolkit/blob/master/android/aoptions)
+
 ## Git
 `git reset --soft` - cancel commits, keep changes<br>
 `git branch -m new-name` - rename local branch<br>
 `git branch -d <branch_name> - delete local branch`<br>
 `git commit --amend` - add to previous commit<br>
 `git remote prune origin` - remove merged branches<br>
-[Conflict resolving manual](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line)<br>
+[Code conflict resolution command line manual](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line)<br>
+
 ## Terminal shortcuts
 ctrl+u - stash command<br>
 ctrl+y - pop stash<br>
