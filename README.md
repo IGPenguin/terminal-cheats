@@ -7,8 +7,7 @@
 😍 **Contribute via [pull request](https://github.com/IGPenguin/terminal-cheat-sheet/pulls)**<br>
 ⭐️ Hit the star button, make me happy
 
-<details>
-<summary>Table of contents</summary>
+## Table of contents
 - [What is it?](#section-id-2)
 - [Basic bash syntax](#section-id-9)
   - [Command chaining](#section-id-10)
@@ -35,7 +34,6 @@
 - [Code snippets](#section-id-85)
 - [Git](#section-id-88)
 - [Terminal shortcuts](#section-id-96)
-</details>
 
 <div id='section-id-9'/>
 
