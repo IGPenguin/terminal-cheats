@@ -1,35 +1,3 @@
-#Summary 
-
-  - [What is it?](#section-id-2)
-  - [Basic bash syntax](#section-id-9)
-    - [Command chaining](#section-id-10)
-    - [Variable comparsion](#section-id-17)
-      - [Integer comparison operators](#section-id-22)
-      - [String comparison operators](#section-id-31)
-  - [Useful terminal commands](#section-id-43)
-    - [man](#section-id-44)
-    - [curl](#section-id-46)
-    - [grep](#section-id-48)
-    - [sort](#section-id-56)
-    - [tr](#section-id-58)
-    - [awk](#section-id-60)
-    - [file](#section-id-62)
-  - [Oneliners](#section-id-65)
-    - [Run remote script](#section-id-66)
-    - [Command result if](#section-id-68)
-    - [Var is number](#section-id-70)
-    - [Remove suff/pre-fix](#section-id-72)
-    - [Format output into columns](#section-id-75)
-    - [Schedule command](#section-id-77)
-    - [Remove trailing carriage return](#section-id-79)
-    - [Colorized output](#section-id-81)
-  - [Code snippets](#section-id-85)
-  - [Git](#section-id-88)
-  - [Terminal shortcuts](#section-id-96)
-  
-
-
-
 <div id='section-id-2'/>
 
 ## What is it?
@@ -38,6 +6,36 @@
 ⚠️ Use at your own risk<br>
 😍 **Contribute via [pull request](https://github.com/IGPenguin/terminal-cheat-sheet/pulls)**<br>
 ⭐️ Hit the star button, make me happy
+
+<details>
+<summary>Table of contents</summary>
+- [What is it?](#section-id-2)
+- [Basic bash syntax](#section-id-9)
+  - [Command chaining](#section-id-10)
+  - [Variable comparsion](#section-id-17)
+    - [Integer comparison operators](#section-id-22)
+    - [String comparison operators](#section-id-31)
+- [Useful terminal commands](#section-id-43)
+  - [man](#section-id-44)
+  - [curl](#section-id-46)
+  - [grep](#section-id-48)
+  - [sort](#section-id-56)
+  - [tr](#section-id-58)
+  - [awk](#section-id-60)
+  - [file](#section-id-62)
+- [Oneliners](#section-id-65)
+  - [Run remote script](#section-id-66)
+  - [Command result if](#section-id-68)
+  - [Var is number](#section-id-70)
+  - [Remove suff/pre-fix](#section-id-72)
+  - [Format output into columns](#section-id-75)
+  - [Schedule command](#section-id-77)
+  - [Remove trailing carriage return](#section-id-79)
+  - [Colorized output](#section-id-81)
+- [Code snippets](#section-id-85)
+- [Git](#section-id-88)
+- [Terminal shortcuts](#section-id-96)
+<details>
 
 <div id='section-id-9'/>
 
@@ -144,7 +142,7 @@ The == comparison operator behaves differently within a double-brackets test tha
 <div id='section-id-75'/>
 
 ### Format output into columns
-`echo <tbd> | column` 
+`echo <tbd> | column`
 <div id='section-id-77'/>
 
 ### Schedule command
