@@ -1,13 +1,14 @@
 <div id='section-id-2'/>
 
 ## What is it?
-📃 **Terminal & bash cheat sheet**<br>
-🙈 Sourced by Google search<br>
-⚠️ Use at your own risk<br>
-😍 **Contribute via [pull request](https://github.com/IGPenguin/terminal-cheat-sheet/pulls)**<br>
-⭐️ Hit the star button, make me happy
+<sup>
+<b>💾 Bash oneliners and terminal tricks</b><br>
+⚠️ Sourced by Google search, use at your own risk.<br>
+⭐️ Hit the star button, make me happy!<br>
+👀 Visit my other projects https://github.com/IGPenguin
+</sup>
 
-## Table of contents
+### Table of contents
 - [What is it?](#section-id-2)
 - [Basic bash syntax](#section-id-9)
   - [Command chaining](#section-id-10)
@@ -152,8 +153,8 @@ The == comparison operator behaves differently within a double-brackets test tha
 <div id='section-id-81'/>
 
 ### Colorized output
-`tput setaf 1; echo WARNING; tput sgr0;`<br>
 [Output color codes](https://unix.stackexchange.com/questions/269077/tput-setaf-color-table-how-to-determine-color-codes)<br>
+`tput setaf 1; echo WARNING MESSAGE; tput sgr0;`<br>
 
 <div id='section-id-85'/>
 
@@ -163,12 +164,12 @@ The == comparison operator behaves differently within a double-brackets test tha
 <div id='section-id-88'/>
 
 ## Git
+[Code conflict resolution command line manual](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line)<br>
 `git reset --soft` - cancel commits, keep changes<br>
 `git branch -m new-name` - rename local branch<br>
 `git branch -d <branch_name> - delete local branch`<br>
 `git commit --amend` - add to previous commit<br>
 `git remote prune origin` - remove merged branches<br>
-[Code conflict resolution command line manual](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line)<br>
 
 <div id='section-id-96'/>
 
